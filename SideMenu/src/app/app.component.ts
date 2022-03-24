@@ -4,15 +4,17 @@ import { Component } from '@angular/core';
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
+
 export class AppComponent {
   public appPages = [
-    { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'View', url: '/folder/View', icon: 'eye' },
+    { title: 'Relatório', url: '/folder/Relatório', icon: 'document-text' },
+    { title: 'Comandos', url: '/folder/Comandos', icon: 'list' },
+    { title: 'User', url: '/folder/User', icon: 'people-circle' },
+    { title: 'Configurações', url: '/folder/Config', icon: 'settings' },
+     
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
+  
 }
