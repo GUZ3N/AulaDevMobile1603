@@ -7,14 +7,18 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   public appPages = [
-    { title: 'View', url: '/folder/View', icon: 'eye' },
-    { title: 'Relatório', url: '/folder/Relatório', icon: 'document-text' },
-    { title: 'Comandos', url: '/folder/Comandos', icon: 'list' },
-    { title: 'User', url: '/folder/User', icon: 'people-circle' },
-    { title: 'Configurações', url: '/folder/Config', icon: 'settings' },
-     
+    { title: 'Visualização', url: '/view', icon: 'eye' },
+    { title: 'Relatório', url: '/relatorio', icon: 'document' },
+    { title: 'Comando', url: '/comando', icon: 'list' },
+    { title: 'Administradores', url: '/administradores', icon: 'people-circle' },
+    { title: 'Discord', url: '/discord', icon: '' },
+    { title: 'Configurações', url: '/configuracao', icon:'settings'}
+    
   ];
+
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
+
   
 }
+
