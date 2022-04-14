@@ -15,8 +15,8 @@ export class AppComponent {
     { title: 'Administradores', url: '/user', icon: 'people-circle' },
     { title: 'Discord', url: '/discord', icon: '' },
     { title: 'Configurações', url: '/configuracoes', icon:'settings'},
-    { title: 'Suporte', url: '/suporte', icon:'code'},
-    { title: 'RedeSocial', url: '/redesocial', icon:'code'},
+    { title: 'Suporte', url: '/suporte', icon:'headset'},
+    { title: 'RedeSocial', url: '/redesocial', icon:'earth'},
   ];
 
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
