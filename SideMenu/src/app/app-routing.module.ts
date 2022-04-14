@@ -8,6 +8,14 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'navegacao',
+    loadChildren: () => import('./Pages/navegacao/navegacao.module').then( m => m.NavegacaoPageModule)
+  },
+  {
+    path: 'navegacao2',
+    loadChildren: () => import('./Pages/navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
+  },
+  {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
   },
@@ -30,7 +38,20 @@ const routes: Routes = [
   {
     path: 'configuracoes',
     loadChildren: () => import('./pages/configuracoes/configuracoes.module').then( m => m.ConfiguracoesPageModule)
-  }
+  },
+  {
+    path: 'discord',
+    loadChildren: () => import('./Pages/discord/discord.module').then( m => m.DiscordPageModule)
+  },
+  {
+    path: 'suporte',
+    loadChildren: () => import('./Pages/suporte/suporte.module').then( m => m.SuportePageModule)
+  },
+  {
+    path: 'redesocial',
+    loadChildren: () => import('./Pages/redesocial/redesocial.module').then( m => m.RedesocialPageModule)
+  },
+
 ];
 
 @NgModule({
