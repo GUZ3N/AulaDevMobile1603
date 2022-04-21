@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {
@@ -50,6 +50,30 @@ const routes: Routes = [
   {
     path: 'redesocial',
     loadChildren: () => import('./Pages/redesocial/redesocial.module').then( m => m.RedesocialPageModule)
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./Pages/home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'botao',
+    loadChildren: () => import('./Pages/botao/botao.module').then( m => m.BotaoPageModule)
+  },
+  {
+    path: 'botao2',
+    loadChildren: () => import('./Pages/botao2/botao2.module').then( m => m.Botao2PageModule)
+  },
+  {
+    path: 'botao3',
+    loadChildren: () => import('./Pages/botao3/botao3.module').then( m => m.Botao3PageModule)
+  },
+  {
+    path: 'botao4',
+    loadChildren: () => import('./Pages/botao4/botao4.module').then( m => m.Botao4PageModule)
+  },
+  {
+    path: 'botao5',
+    loadChildren: () => import('./Pages/botao5/botao5.module').then( m => m.Botao5PageModule)
   },
 
 ];
