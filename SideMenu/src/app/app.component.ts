@@ -24,6 +24,7 @@ export class AppComponent {
     { title: 'Suporte', url: '/suporte', icon:'headset'},
     { title: 'RedeSocial', url: '/redesocial', icon:'earth'},
     { title: 'Alerta', url: '/alert', icon:'alert-circle'},
+    { title: 'Action Sheet', url: '/actionsheet', icon:'alert'},
   ];
 
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
