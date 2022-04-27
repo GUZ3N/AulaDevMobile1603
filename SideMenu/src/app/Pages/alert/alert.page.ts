@@ -16,9 +16,9 @@ export class AlertPage implements OnInit {
   async remove(){
     const alert = await this.alertCtrl.create({
       cssClass: "my-custom-class",
-      header: "REMOVER",
-      subHeader: "REMOVIDO?",
-      message: "usuario foi removio!! :( (mentira kkkkk)",
+      header: "REMOVER USUÁRIO",
+      subHeader: "REMOVER?",
+      message: "usuario removio!",
       buttons: ['OK']
     });
     await alert.present();
@@ -28,13 +28,13 @@ export class AlertPage implements OnInit {
       cssClass: "my-custom-class",
       header: "ADICIONAR",
       subHeader: "Adicionado?",
-      message: "Coloca as infos ai:",
+      message: "Adicione as informações:",
       inputs: [{
         name: "Nome",
-        placeholder: "Nome do individuo"
+        placeholder: "Adicionar nome"
       },{
         name: "Sobrenome",
-        placeholder: "Sobrenome do cara",
+        placeholder: "Adicionar sobrenome",
       }],
       buttons: ['Adicionar']
     });
@@ -45,13 +45,13 @@ export class AlertPage implements OnInit {
       cssClass: "my-custom-class",
       header: "EDITAR",
       subHeader: "Editado?",
-      message: "Edita o nome ai",
+      message: "Edite o nome",
       inputs: [{
         name: "Nome",
-        placeholder: "Nome do individuo"
+        placeholder: "Editar nome"
       },{
         name: "Sobrenome",
-        placeholder: "Sobrenome do cara",
+        placeholder: "Editar sobrenome",
       }],
       buttons: ['editar']
     });
