@@ -74,7 +74,11 @@ const routes: Routes = [
   {
     path: 'botao5',
     loadChildren: () => import('./Pages/botao5/botao5.module').then( m => m.Botao5PageModule)
+  },  {
+    path: 'alert',
+    loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
   },
+
 
 ];
 

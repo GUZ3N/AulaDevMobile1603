@@ -23,6 +23,7 @@ export class AppComponent {
     { title: 'Configurações', url: '/configuracoes', icon:'settings'},
     { title: 'Suporte', url: '/suporte', icon:'headset'},
     { title: 'RedeSocial', url: '/redesocial', icon:'earth'},
+    { title: 'Alerta', url: '/alert', icon:'alert-circle'},
   ];
 
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
