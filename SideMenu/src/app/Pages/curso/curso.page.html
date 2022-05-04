@@ -1,5 +1,6 @@
 <ion-header>
   <ion-toolbar>
+    <ion-menu-button slot="start"></ion-menu-button>
     <ion-title>curso</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,5 +13,9 @@
         <ion-checkbox cheked="{{curso.marcado}}" [(ngModel)]="curso.marcado"></ion-checkbox>
       </ion-item>
     </ion-list>
-    <ion-button (click)="showCursos()">Check cursos</ion-button>
+    <ion-button (click)="showCursos()">checar cursos</ion-button>
+    <ion-button href="https://www.saolucasjiparana.edu.br/cursos/graduacao" target='_blank' (click)="showCursos()">ir para os cursos</ion-button>
 </ion-content>
+<div>
+  
+</div>

@@ -30,6 +30,7 @@ export class CursoPage implements OnInit {
       if (value.marcado){
         console.log(value);
       }
+      
     });
   }
 

@@ -7,9 +7,12 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   public appPages = [
+    { title: 'HOME', url: '/home', icon: '' },
     { title: 'show', url: '/shows', icon:'construct'},
     { title: 'curso', url: '/curso', icon:'construct'},
-    { title: 'HOME', url: '/home', icon: '' },
+    { title: 'Alerta', url: '/alert', icon:'alert-circle'},
+    { title: 'Action Sheet', url: '/actionsheet', icon:'alert'},
+    { title: 'Badge', url: '/badge', icon:'list'},
     { title: 'Botões', url: '/botao', icon: 'construct' },
     { title: 'Botões2', url: '/botao2', icon: 'construct' },
     { title: 'Botões3', url: '/botao3', icon: 'construct' },
@@ -25,9 +28,6 @@ export class AppComponent {
     { title: 'Configurações', url: '/configuracoes', icon:'settings'},
     { title: 'Suporte', url: '/suporte', icon:'headset'},
     { title: 'RedeSocial', url: '/redesocial', icon:'earth'},
-    { title: 'Alerta', url: '/alert', icon:'alert-circle'},
-    { title: 'Action Sheet', url: '/actionsheet', icon:'alert'},
-    { title: 'Badge', url: '/badge', icon:'list'},
   ];
 
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
