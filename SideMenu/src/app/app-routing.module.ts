@@ -74,7 +74,8 @@ const routes: Routes = [
   {
     path: 'botao5',
     loadChildren: () => import('./Pages/botao5/botao5.module').then( m => m.Botao5PageModule)
-  },  {
+  },
+  {
     path: 'alert',
     loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
   },
@@ -86,6 +87,19 @@ const routes: Routes = [
     path: 'badge',
     loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
   },
+  {
+    path: 'shows',
+    loadChildren: () => import('./Pages/shows/shows.module').then( m => m.ShowsPageModule)
+  },
+  {
+    path: 'participar',
+    loadChildren: () => import('./Pages/participar/participar.module').then( m => m.ParticiparPageModule)
+  },  {
+    path: 'curso',
+    loadChildren: () => import('./Pages/curso/curso.module').then( m => m.CursoPageModule)
+  },
+
+
 
 
 ];

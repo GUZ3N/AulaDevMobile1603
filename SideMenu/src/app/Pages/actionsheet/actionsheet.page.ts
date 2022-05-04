@@ -24,7 +24,7 @@ export class ActionsheetPage implements OnInit {
           icon: "trash",
           
           handler: () =>{
-            console.log('DEDEDELATADOOOO')
+            console.log('DELETADO')
           }
 
         },{
@@ -33,21 +33,21 @@ export class ActionsheetPage implements OnInit {
           icon: "share",
           
           handler: () =>{
-            console.log('compartilhadooooo')
+            console.log('COMPARTILHADO')
           }
         },{
           text: "Rodando",
           icon: "caret-forward-circle",
           
           handler: () =>{
-            console.log('Jogandoooo ')
+            console.log('RODANDO')
           }
         },{
           text: "Favorito",
           icon: "heart",
           
           handler: () =>{
-            console.log('Salvado como favorito')
+            console.log('SALVO COMO FAVORITO')
           }
         }]
       }
