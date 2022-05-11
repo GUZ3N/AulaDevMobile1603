@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="sucess">
+    <ion-buttons slot="start"> 
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Página de Infinitscroll</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content>
+    <ion-list>
+      <ion-item *ngFor="let alfabeto of alfabetos | slice:0:limite ">
+        <ion-label color="dark">{{alfabeto}}</ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-infinite-scroll (ionInfinite)="atualizaInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+    
+  </ion-content>

@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   public appPages = [
+    { title: 'Infinit Scroll', url: '/infinitscroll', icon:'infinite'},
+    { title: 'Imput', url: '/input', icon:'document-text'},
     { title: 'HOME', url: '/home', icon: '' },
     { title: 'show', url: '/shows', icon:'construct'},
     { title: 'curso', url: '/curso', icon:'construct'},

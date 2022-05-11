@@ -98,6 +98,14 @@ const routes: Routes = [
     path: 'curso',
     loadChildren: () => import('./Pages/curso/curso.module').then( m => m.CursoPageModule)
   },
+  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+  },
+  {
+    path: 'infinitscroll',
+    loadChildren: () => import('./pages/infinitscroll/infinitscroll.module').then( m => m.InfinitscrollPageModule)
+  },
 
 
 
